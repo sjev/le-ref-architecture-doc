@@ -4,6 +4,8 @@
 #
 # Except
 #
+!.devcontainer
+!.vscode
 !*.env.example
 !*.circleci
 !*.dockeringnore
@@ -69,7 +71,6 @@ Thumbs.db
 .metadata
 *.iml
 *.ipr
-.vscode
 /src
 /venv
 
